@@ -1,0 +1,38 @@
+.grid {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.row {
+  margin-top: -3px;
+}
+
+.start-button {
+  position: absolute;
+  left: 45%;
+  margin-top: -100px;
+  width: 100px;
+  height: 50px;
+  border-radius: 15%;
+  background-color: lightblue;
+  color: green;
+}
+
+.start-button:hover {
+  background-color: cadetblue;
+}
+
+.reset-button {
+  position: absolute;
+  left: 55%;
+  margin-top: -100px;
+  width: 100px;
+  height: 50px;
+  border-radius: 15%;
+  background-color: lightblue;
+  color: green;
+}
+
+.reset-button:hover {
+  background-color: cadetblue;
+}

@@ -1,0 +1,60 @@
+.node {
+  display: inline-block;
+  border: 2px solid lightblue;
+  width: 30px;
+  height: 30px;
+  margin-left: 1px;
+  border-radius: 20%;
+}
+
+.node-start {
+  background-color: green;
+}
+
+.node-end {
+  background-color: red;
+}
+
+.node-visited {
+  animation-name: visited;
+  animation-duration: 1s;
+  background-color: lightskyblue;
+  animation-timing-function: ease-out;
+}
+
+.node-wall {
+  background-color: rgb(12, 53, 71);
+}
+
+.node-path {
+  animation-name: path;
+  animation-duration: 2s;
+  background-color: yellow;
+}
+
+@keyframes visited {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: lightcyan;
+  }
+  50% {
+    background-color: lightblue;
+  }
+  75% {
+    background-color: lightgreen;
+  }
+  100% {
+    background-color: lightskyblue;
+  }
+}
+
+@keyframes path {
+  0% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
