@@ -1,4 +1,7 @@
-This is a visualization of path finding algorithm. Currently it has only Dijkstra's Algorithm
+This is a visualization of path finding algorithm. Currently it has only Dijkstra's Algorithm.
+The live version is available at: https://pathvisualizerdij.netlify.app/
+Since it is a Prograssive Web App, you can install it on the device also. Click on the + sign on the top right corner of the url bar to install it.
+It is also available at : https://info.progressiveapp.store/pwa/Path-Finder-Visualizer
 
 To run the app, run following commands after cloning:<br>
   &nbsp;&nbsp;&nbsp;cd pathfinder<br>
